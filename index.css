@@ -1,0 +1,52 @@
+/* FONT: */
+@font-face {
+    font-family: "Gotham";
+    src: url("fonts/Gotham-Font/Gotham-Light.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* universal/HTML: */
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER: */
+.header {
+    margin: 0;
+    display: flex;
+    max-height: 80px;
+    color: white;
+    background-color: black;
+}
+
+#logo {
+    padding: 20px 0px 20px 40px;
+    flex-basis: 135px;
+}
+
+#logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#logo-text {
+    font-family: "Gotham";
+    font-size: 25px;
+    align-self: center;
+}
+
+#logo-text #for {
+    font-size: 24px;
+    padding-right: 4px;
+    padding-left: 2px;
+}
+
+/* HEADLINE: */
+
+
+
+/* FAVE-TRACKS: */
