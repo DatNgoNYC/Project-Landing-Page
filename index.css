@@ -13,6 +13,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Gotham black";
+    src: url("fonts/Gotham-Font/Gotham-Black.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham light italic";
+    src: url("fonts/Gotham-Font/GothamLightItalic.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
 /* universal/HTML: */
 body {
     display: flex;
@@ -105,4 +119,114 @@ body {
 }
 
 
+/* FAVE-TRACKS-TITLE: */
+.fave-tracks-title {
+    flex: 1 1 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: "Gotham black";
+    font-size: 30px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
 /* FAVE-TRACKS: */
+.fave-tracks {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    color: white;
+    background-color: rgb(24, 24, 24);
+}
+
+.track {
+    text-align: center;
+}
+
+.track img {
+    width: 80%;
+    height: 80%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.track .title {
+    font-family: "Gotham light";
+    margin: 10px 0px 5px 0px;
+}
+
+
+/* song-lyrics: */
+.song-lyrics {
+    padding: 50px 12vw 50px 12vw;
+    text-align: center;
+    background-color: rgb(30, 215, 96);
+    color: white;
+}
+
+.lyrics {
+    font-family: "Gotham";
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.lyrics span {
+    font-family: "Gotham light";
+    font-size: 60px;
+}
+
+.song-lyrics .artist {
+    text-align: right;
+    font-family: "Gotham light italic";
+    font-size: 40px;
+}
+
+/* call-to-action: */
+.call-to-action {
+    padding: 10px 100px 10px 100px;
+    display: flex;
+    border-radius: 10px;
+    margin: 5vw;
+    background-color: black;
+    color: white;
+}
+
+.call-to-action .text {
+    flex: 1.5 1 0;
+    text-align: center;
+}
+
+.call-to-action .text h1 {
+    font-family: "Gotham";
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.call-to-action .text p {
+    margin-top: 5px;
+    font-family: "Gotham light";
+}
+
+.call-to-action .button {
+    flex: 1 1 0;
+    align-self: center;
+    text-align: center;
+}
+
+.call-to-action .button a {
+    border-radius: 4px;
+    padding: 5px;
+    border: 2px solid white;
+}
+
+/* footer:  */
+.footer {
+    padding: 20px 0;
+    font-family: "Gotham light";
+    font-size: 16px;
+    color: grey;
+    background-color: black;
+    text-align: center;
+}
