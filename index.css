@@ -160,15 +160,15 @@ body {
 
 /* song-lyrics: */
 .song-lyrics {
-    padding: 50px 12vw 50px 12vw;
+    padding: 75px 7vw 30px 7vw;
     text-align: center;
     background-color: rgb(30, 215, 96);
     color: white;
 }
 
 .lyrics {
-    font-family: "Gotham";
-    font-size: 60px;
+    font-family: "Gotham light italic";
+    font-size: 50px;
     margin-bottom: 15px;
 }
 
@@ -179,8 +179,8 @@ body {
 
 .song-lyrics .artist {
     text-align: right;
-    font-family: "Gotham light italic";
-    font-size: 40px;
+    font-family: "Gotham";
+    font-size: 30px;
 }
 
 /* call-to-action: */
@@ -219,6 +219,8 @@ body {
     border-radius: 4px;
     padding: 5px;
     border: 2px solid white;
+    text-decoration: none;
+    color: white;
 }
 
 /* footer:  */
